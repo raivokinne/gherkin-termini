@@ -11,22 +11,22 @@ const termins = [
 	{
 		id: 1,
 		keyword: "Feature",
-		equivalent: "Funkcionalitāte/Fīča"
+		equivalent: "Funkcionālā iezīme"
 	},
 	{
 		id: 2,
 		keyword: "Background",
-		equivalent: "Konteksts/Situācija"
+		equivalent: "Konteksts"
 	},
 	{
 		id: 3,
 		keyword: "Rule",
-		equivalent: "Rule"
+		equivalent: "Noteikums"
 	},
 	{
 		id: 4,
 		keyword: "Scenario",
-		equivalent: "Piemērs/Scenārijs"
+		equivalent: "Scenārijs"
 	},
 	{
 		id: 5,
@@ -36,7 +36,7 @@ const termins = [
 	{
 		id: 6,
 		keyword: "Examples",
-		equivalent: "Piemēri/Paraugs"
+		equivalent: "Piemēri"
 	},
 	{
 		id: 7,
