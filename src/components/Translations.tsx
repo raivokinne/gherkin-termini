@@ -1,68 +1,68 @@
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHeader,
-  TableRow,
+	Table,
+	TableBody,
+	TableCell,
+	TableHeader,
+	TableRow,
 } from "@/components/ui/table"
 import { cn } from "@/lib/utils"
 
 const termins = [
-  {
+	{
 		id: 1,
 		keyword: "Feature",
 		equivalent: "Funkcionalitāte/Fīča"
-  },
-  {
+	},
+	{
 		id: 2,
 		keyword: "Background",
 		equivalent: "Konteksts/Situācija"
-  },
-  {
+	},
+	{
 		id: 3,
 		keyword: "Rule",
 		equivalent: "Rule"
-  },
-  {
+	},
+	{
 		id: 4,
 		keyword: "Scenario",
 		equivalent: "Piemērs/Scenārijs"
-  },
-  {
+	},
+	{
 		id: 5,
 		keyword: "Scenario Outline",
 		equivalent: "Scenārijs pēc parauga"
-  },
-  {
+	},
+	{
 		id: 6,
 		keyword: "Examples",
 		equivalent: "Piemēri/Paraugs"
-  },
-  {
+	},
+	{
 		id: 7,
 		keyword: "Given",
 		equivalent: "* Kad"
-  },
-  {
+	},
+	{
 		id: 8,
 		keyword: "When",
 		equivalent: "* Ja"
-  },
-  {
+	},
+	{
 		id: 9,
 		keyword: "Then",
 		equivalent: "* Tad"
-  },
-  {
+	},
+	{
 		id: 10,
 		keyword: "And",
 		equivalent: "* Un"
-  },
-  {
+	},
+	{
 		id: 11,
 		keyword: "But",
 		equivalent: "* Bet"
-  },
+	},
 ]
 
 export function TableComponent() {
@@ -72,7 +72,7 @@ export function TableComponent() {
 			<Table className="flex">
 				<TableHeader>
 					{termins.map((termin) => (
-						<TableRow className={cn("border border-black")} key={termin.id}>
+						<TableRow className={cn("border border-white")} key={termin.id}>
 							<TableCell className="font-medium">{termin.keyword}</TableCell>
 						</TableRow>
 					))}
@@ -80,7 +80,7 @@ export function TableComponent() {
 				<TableBody>
 					{termins.map((termin) => (
 						<TableRow key={termin.id}>
-							<TableCell className={cn("border border-black")}>{termin.equivalent}</TableCell>
+							<TableCell className={cn("border border-white")}>{termin.equivalent}</TableCell>
 						</TableRow>
 					))}
 				</TableBody>
@@ -92,11 +92,11 @@ export function TableComponent() {
 export function Translations() {
 	return (
 		<>
-			<main className="flex justify-center items-center h-screen w-full">
+			<div className="flex justify-center items-center h-screen w-full">
 				<div>
 					<TableComponent />
 				</div>
-			</main>
+			</div>
 		</>
 	)
 }
