@@ -36,7 +36,7 @@ const faqItems = [
 	{
 		question: "Kā veidot scenārijus?",
 		answer:
-			"Scenāriji tiek veidoti, izmantojot Given-When-Then struktūru. 'Given' apraksta sākotnējos nosacījumus, 'When' apraksta darbību, kas tiek veikta, un 'Then' apraksta sagaidāmo rezultātu. Piemēram: Given esmu pieteicies sistēmā, When es noklikšķinu uz 'Izrakstīties' pogas, Then man jābūt atteiktam no sistēmas.",
+			"Scenāriji tiek veidoti, izmantojot Kad-Ja-Tad struktūru. 'Kad' apraksta sākotnējos nosacījumus, 'Jan' apraksta darbību, kas tiek veikta, un 'Tad' apraksta sagaidāmo rezultātu. Piemēram: Kad esmu pieteicies sistēmā, Ja es noklikšķinu uz 'Izrakstīties' pogas, Tad man jābūt atteiktam no sistēmas.",
 	},
 	{
 		question: "Kā Rubika kubs ļauj skatīties uz funkcionālajām iezīmēm?",
